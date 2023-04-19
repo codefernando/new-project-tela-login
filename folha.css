@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.9051995798319328) 0%,
+     rgba(123,27,167,0.6166841736694677) 26%);
+}
+
+.container{
+    width: 175vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.tela-inicial{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 56%, rgba(156,29,187,1) 100%);
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+#title-principal{
+    margin-top: 30%;
+    font-size: 50px;
+    color: white;
+}
+
+#text-title{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+/* estiliaçao formulario */
+.tela-login{
+    background-color:bisque;
+    margin-top: 30px;
+    width: 510px;
+}
+    
+#title-login{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.tela-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.form-group-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-1 input{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    width: 270px     
+}
+
+.check input{
+    margin-top: 20px;
+}
+
+.check label{
+    font-size: 18px;   
+}
+
+.check a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.btn{
+    width: 250px;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 5%, rgba(63,94,251,1) 23%, rgba(113,48,129,1) 61%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inscriçao{
+    margin-top: 20px;
+
+    
+}
+
+.inscriçao label{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.inscriçao a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
